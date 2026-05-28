@@ -9,7 +9,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 function App() {
   return (
     <>
-      <h1>REACT module-1</h1>
+      <h1></h1>
 
       <Routes>
         <Route path="/" element={<Layout />}>
