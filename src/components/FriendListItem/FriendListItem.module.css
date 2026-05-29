@@ -1,0 +1,22 @@
+.item {
+  width: 180px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.online {
+  color: green;
+  font-size: 24px;
+}
+
+.offline {
+  color: red;
+  font-size: 24px;
+}
