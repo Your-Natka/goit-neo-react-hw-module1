@@ -12,15 +12,6 @@ export default function Navigation() {
       >
         Home
       </NavLink>
-
-      <NavLink
-        to="/movies"
-        className={({ isActive }) =>
-          isActive ? `${css.link} ${css.active}` : css.link
-        }
-      >
-        Movies
-      </NavLink>
     </nav>
   );
 }
