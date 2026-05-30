@@ -20,6 +20,7 @@ function App() {
           <Route path="/task-2" element={<Task2Page />} />
           <Route path="/task-3" element={<Task3Page />} />
           <Route path="*" element={<NotFoundPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </>
